@@ -1,0 +1,15 @@
+# MySQL Workbench
+*.mwb.bak
+*.mwb~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+
+# Local credentials/config
+config.ini
+*.env
