@@ -36,3 +36,21 @@ SELECT
 FROM Students s
 LEFT JOIN Enrollments e ON s.student_id = e.student_id
 GROUP BY s.student_id, s.name;
+
+UPDATE Students
+SET email = 'ayesha.khan.new@example.com'
+WHERE student_id = 1;
+
+UPDATE Enrollments
+SET grade = 3.90
+WHERE enrollment_id = 4;
+
+UPDATE Courses
+SET instructor_name = 'Dr. Sana Yousaf'
+WHERE course_id = 3;
+
+DELETE FROM Enrollments
+WHERE enrollment_id = 7;
+
+DELETE FROM Students
+WHERE student_id = 6;
